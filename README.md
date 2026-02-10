@@ -3,9 +3,9 @@
 These two mods don't really work well together, but they're very useful.  This mod aims to bridge the two together so they can work. 
 
 ## Requirements: 
-1. phpbb 3.3.x
-2. vse/abbc3
-3. vinny/giphy
+1. phpbb 3.3.x 
+2. vse/abbc3  https://www.phpbb.com/community/viewtopic.php?t=2663497
+3. vinny/giphy  https://www.phpbb.com/customise/db/extension/advanced_bbcode_box/
 
 ## Install
 1. Download this mod 
