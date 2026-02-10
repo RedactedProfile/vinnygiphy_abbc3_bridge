@@ -1,0 +1,28 @@
+/* This hack ensures the overlay behaves as a real modal everywhere (posting + viewtopic quick reply). 
+   otherwise, the vinny/giphy bit is trapped outside of a modal and in the footer during quick reply.
+*/
+#giphy-modal {
+  &.modal-overlay {
+    display: none;            /* default hidden */
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.55);
+  }
+  .modal {
+    width: min(900px, 92vw);
+    max-height: 80vh;
+    overflow: auto;
+    background: #fff;
+    border-radius: 6px;
+    padding: 16px;
+  }
+}
+
+#giphy-results  {
+  img {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "sneakyninja/vinnygiphy_abbc3_bridge",
+    "type": "phpbb-extension",
+    "description": "Bridge mod that Integrates Vinny/Giphy into the VSE/ABBC3 posting interfaces (includes quick reply)",
+    "homepage": "https://github.com/RedactedProfile/vinnygiphy_abbc3_bridge",
+    "version": "1.0.0",
+    "time": "2026-02-10",
+    "keywords": ["phpbb", "extension", "gif", "social", "abbc3", "vinny"],
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "SneakyNinja",
+			"homepage": "https://github.com/RedactedProfile",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+		"phpbb/phpbb": "^3.3.0"
+    },
+    "extra": {
+        "display-name": "Vinny/Giphy VSE/ABBC3 Bridge",
+        "soft-require": {
+            "phpbb/phpbb": "^3.3.0"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/giphy",
+            "filename": "version_check",
+            "ssl": true
+        }
+    }
+}
